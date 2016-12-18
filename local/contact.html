@@ -1,0 +1,100 @@
+<!doctype html>
+<html>
+  <head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <meta name = "viewport" content = "width=device-width,initial-scale = 1." />
+      <title>Granny's Meal Box</title>
+      <link rel = "stylesheet" href = "bootstrap/css/bootstrap.min.css"/>
+      <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
+      <style>
+      #form input
+      {
+          padding:5px;
+      }
+      textarea
+      {
+          padding:5px;
+      }
+      #footer a:hover
+      {
+          color:white;
+          text-decoration:none;
+      }
+      </style>
+      <script type = "text/js" src = "bootstrap/js/bootstrap.min.js"></script>
+      <script type = "text/js" src="jquery2.1.3.min.js"></script>
+      <script type = "text/js">
+      </script>
+  </head>
+  <body>
+     <!--Navigation Bar-->
+     <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#"class="pull-left"><img alt="Brand" src="a1.png">
+         <a class="navbar-brand" style="font-family: 'Nunito', sans-serif;">Granny's Meal Box</a>
+        </div>
+        <div class="navbar-collapse collapse pull-right" style="font-family: 'Nunito', sans-serif;">
+          <ul class="nav navbar-nav navbar-collapse">
+            <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+<div class = "container" id = "contact" style = "text-align:center;font-family:'Nunito','sans-serif';">
+       <h2><p style = "text-align:center;margin-top:70px;"><span class="glyphicon glyphicon-envelope" aria-hidden="true">  Contact Us</span</p></h2>
+       <p><h3><b>If you encouters any problem, please do not hesitate to contact us<b></h3></p>
+       <hr/>
+          <div class="row">
+              <div class = "col-sm-9">
+              <form id = "form" method = "post" action = "#" onsubmit = "return validateform()">
+                  <div class = "col-sm-4">
+                    <input type = "text" class = "form-control" style = "margin-right:20px;" placeholder = "Name" name = "name"required/>
+                  </div>
+                  <div class = "col-sm-4">
+                    <input type = "text" class = "form-control" style = "margin-right:20px;" placeholder = "Email Address" email = "email" required/>
+                  </div>
+                  <div class = "col-sm-4">
+                    <input type = "text" class = "form-control" placeholder = "Mobile Number" name = "number" required/>
+                  </div>
+                    <br/>
+                    <br/>
+                    <div class = "col-sm-12">
+                    <textarea placeholder = "Enter here" class = "form-control" name = "message" rows = "15"></textarea>
+                    </div>
+                    <br/>
+                     <input type = "submit" value = "Send Message" style = "margin-top:20px;margin-left:20px;" class = "btn btn-warning col-sm-2"/>
+               </form>
+               </div>
+               <div class = "col-sm-3">
+                    <div class = "widget">
+                    <h4>Address : </h4>
+                    <address>Near Victoria Urban , Vallabh Nagar , P.B. No. - 452003 , Indore , Madhya Pradesh</address>
+                    <h4>Mobile No. :</h4><h5>+91 9479306900</h5>
+                    <h4>Email :</h4><h5>help@grannysmealbox.in</h5>
+                    </div>
+               </div>
+           </div>
+       </div>
+	<div class="container-fluid" style = "text-align:center;font-family:'Nunito','sans-serif';">
+    <p><h4>Incase you don't find any call from our side as in case our server is under construction, Please call us. We are sorry for the inconnvenience</h4></p>
+     <br/>
+      </div><br><br><br>
+       <!--Footer-->
+       <div class = "navbar navbar-inverse navbar-fixed-bottom" id = "footer">
+          <div class = "container">
+          <p style = "color:#9d9d9d;padding-top:15px;"> &copy; 2016 <a href="#">ASA Tech.</a> All rights reserved </p>
+          </div>
+       </div><script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+ <script src="js/jquery-2.1.1.min.js"></script>
+    </body>
+</html>
